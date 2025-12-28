@@ -171,7 +171,7 @@ export const Dashboard: React.FC<DashboardProps> = ({ onNavigate }) => {
                          <p className="text-sm text-slate-500 dark:text-slate-300 leading-relaxed mb-6 font-medium line-clamp-2">{mod.description}</p>
                          <div className="flex justify-between items-center mt-auto border-t border-slate-100 dark:border-slate-800 pt-4">
                             <span className="text-[11px] text-slate-400 dark:text-slate-400 font-mono font-bold uppercase">EST: 60 MIN</span>
-                            <span className={`text-emerald-600 dark:text-emerald-400 text-xs font-bold font-display tracking-widest group-hover:translate-x-1 transition-transform`}>>> BRIEFING</span>
+                            <span className={`text-emerald-600 dark:text-emerald-400 text-xs font-bold font-display tracking-widest group-hover:translate-x-1 transition-transform`}{'>>> BRIEFING'}</span>
                          </div>
                     </div>
                 ))}
