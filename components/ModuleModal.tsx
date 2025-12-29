@@ -85,7 +85,10 @@ export const ModuleModal: React.FC<ModuleModalProps> = ({ module, onClose }) => 
         {/* Footer Actions */}
         <div className="p-6 bg-slate-950 border-t border-slate-800 flex justify-end gap-4">
           <Button variant="secondary" onClick={onClose}>ABORT_OPERATION</Button>
-          <Button variant={module.category === 'Offensive' ? 'danger' : 'primary'}>INITIALIZE_LAB >> </Button>
+          <Button variant={module.category === 'Offensive' ? 'danger' : 'primary'}>
+  INITIALIZE_LAB &gt;&gt;
+</Button>
+
         </div>
       </div>
     </div>
